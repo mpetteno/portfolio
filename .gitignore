@@ -2,5 +2,10 @@
 .DS_Store
 .idea/
 
+# Node
+node_modules/
+
 # Hugo
 public/
+resources/
+hugo_stats.json

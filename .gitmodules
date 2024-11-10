@@ -1,0 +1,3 @@
+[submodule "themes/vapor"]
+	path = themes/vapor
+	url = https://github.com/mpetteno/hugo-theme-vapor.git
