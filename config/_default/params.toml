@@ -5,6 +5,7 @@ defaultThemeMode = 'light'
 languageSelector = false
 themeModeSwitcher = true
 searchBar = false
+googleFontName = "Open+Sans:ital,wght@0,300..800;1,300..800"
 formspreeFormUrl = 'https://formspree.io/f/xqakprqn'
 fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
 
