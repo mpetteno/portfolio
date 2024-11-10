@@ -5,6 +5,6 @@ module.exports = {
     ...defaultConfig,
     content: [
         ...defaultConfig.content,
-        themeDir + '/layouts/**/*.html'
+        themeDir + 'layouts/**/*.html'
     ]
 };
