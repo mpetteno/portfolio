@@ -8,7 +8,7 @@ canonifyURLs = false
 capitalizeListTitles = true
 cleanDestinationDir = false
 contentDir = 'content'
-copyright = ''
+copyright = 'Design with <span class="text-info-light dark:text-link-dark">Figma</span>, made with <span class="text-brand-light dark:text-brand-dark">Hugo</span>'
 dataDir = 'data'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
@@ -52,7 +52,7 @@ theme = "vapor"
 themesDir = "themes"
 timeout = '30s'
 timeZone = ''
-title = 'Portfolio'
+title = "Matteo Pettenò's Portfolio"
 titleCaseStyle = 'ap'
 uglyURLs = false
 watch = false

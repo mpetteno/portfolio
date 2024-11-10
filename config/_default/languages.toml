@@ -4,14 +4,14 @@
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = 'Portfolio'
+    title = ''
     weight = 0
 [it]
     contentDir = 'content/it'
-    disabled = false
+    disabled = true
     languageCode = 'it-iT'
     languageDirection = 'ltr'
     languageName = 'Italian'
-    title = 'Portfolio'
+    title = ''
     weight = 1
 

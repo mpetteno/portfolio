@@ -19,44 +19,23 @@
     weight = 20
     [main.params]
 [[main]]
-    identifier = 'resume'
-    name = 'resume'
-    url = '#'
-    parent = ''
-    post = ''
-    pre = ''
-    title = 'resume'
-    weight = 30
-    [main.params]
-        rel = 'external'
-[[main]]
-    identifier = 'contactme'
-    name = 'contact me'
-    pageRef = '/contactme'
-    parent = ''
-    post = ''
-    pre = ''
-    title = 'contact me'
-    weight = 40
-    [main.params]
-[[main]]
-    identifier = 'research-projects'
+    identifier = 'research-activity'
     name = 'research'
     pageRef = '/projects/research'
     parent = 'projects'
     post = ''
     pre = ''
-    title = 'research projects'
+    title = 'research activity'
     weight = 10
     [main.params]
 [[main]]
-    identifier = 'diy-projects'
-    name = 'diy'
-    pageRef = '/projects/diy'
+    identifier = 'professional-exp'
+    name = 'work'
+    pageRef = '/projects/work'
     parent = 'projects'
     post = ''
     pre = ''
-    title = 'diy projects'
+    title = 'professional experience'
     weight = 20
     [main.params]
 [[main]]
@@ -68,4 +47,56 @@
     pre = ''
     title = 'creative projects'
     weight = 30
+    [main.params]
+[[main]]
+    identifier = 'computer-music-projects'
+    name = 'computer music'
+    pageRef = '/projects/computer-music'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'computer music projects'
+    weight = 40
+    [main.params]
+[[main]]
+    identifier = 'sasp-projects'
+    name = 'sound synthesis & processing'
+    pageRef = '/projects/sasp'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'sound analysis synthesis & processing'
+    weight = 50
+    [main.params]
+[[main]]
+    identifier = 'musical-acoutics-projects'
+    name = 'musical acoustics'
+    pageRef = '/projects/musical-acoustics'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'musical acoustics'
+    weight = 60
+    [main.params]
+[[main]]
+    identifier = 'resume'
+    name = 'resume'
+    url = '/mpetteno-resume.pdf'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'resume'
+    weight = 30
+    [main.params]
+        rel = 'external'
+        target = '_blank'
+[[main]]
+    identifier = 'contactme'
+    name = 'contact me'
+    pageRef = '/contactme'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'contact me'
+    weight = 40
     [main.params]

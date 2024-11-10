@@ -1,72 +1,83 @@
 
-author = "Site Author"
+author = "Matteo Pettenò"
 singlePage = true
 defaultThemeMode = 'light'
+languageSelector = false
 themeModeSwitcher = true
-searchBar = true
+searchBar = false
 formspreeFormUrl = 'https://formspree.io/f/xqakprqn'
 fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
 
 [[social]]
-    identifier = 'github'
+    identifier = 'github-personal'
     name = 'Github'
-    url = '/'
+    url = 'https://github.com/mpetteno'
     icon = 'fa-brands fa-github'
-    title = 'github'
+    title = 'github-personal'
     weight = 10
+    rel = 'external'
+    target = '_blank'
+    hide = 'true'
+[[social]]
+    identifier = 'github-polimi'
+    name = 'Github Polimi'
+    url = 'https://github.com/mpetteno-polimi'
+    icon = 'fa-brands fa-github'
+    title = 'github-polimi'
+    weight = 20
     rel = 'external'
     target = '_blank'
 [[social]]
     identifier = 'linkedin'
     name = 'Linkedin'
-    url = '/'
+    url = '#'
     icon = 'fa-brands fa-linkedin'
     title = 'linkedin'
-    weight = 20
+    weight = 30
     rel = 'external'
     target = '_blank'
 [[social]]
     identifier = 'email'
     name = 'Email'
-    url = '/'
+    url = '#contactme'
     icon = 'fa-solid fa-envelope'
     title = 'email'
-    weight = 30
+    weight = 40
     rel = 'next'
     target = '_self'
 [[social]]
-    identifier = 'mastodon'
-    name = 'Mastodon'
-    url = '/'
-    icon = 'fa-brands fa-mastodon'
-    title = 'mastodon'
-    weight = 40
+    identifier = 'kaggle'
+    name = 'Kaggle'
+    url = 'https://www.kaggle.com/dock56'
+    icon = 'fa-brands fa-kaggle'
+    title = 'kaggle'
+    weight = 50
     rel = 'external'
     target = '_blank'
 [[social]]
     identifier = 'goodreads'
     name = 'Goodreads'
-    url = '/'
+    url = 'https://www.goodreads.com/mpetteno'
     icon = 'fa-brands fa-goodreads'
     title = 'goodreads'
-    weight = 50
+    weight = 60
     rel = 'external'
     target = '_blank'
 [[social]]
     identifier = 'untappd'
     name = 'Untappd'
-    url = '/'
+    url = 'https://untappd.com/user/doc_56'
     icon = 'fa-brands fa-untappd'
     title = 'untappd'
-    weight = 60
+    weight = 70
     rel = 'external'
     target = '_blank'
 [[social]]
     identifier = 'strava'
     name = 'Strava'
-    url = '/'
+    url = 'https://www.strava.com/athletes/doc56'
     icon = 'fa-brands fa-strava'
     title = 'strava'
-    weight = 70
+    weight = 80
     rel = 'external'
     target = '_blank'
