@@ -3,7 +3,7 @@ title = 'Profilo'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
-{{< figure src="/profile-picture.jpg" alt="Profile image" class="extra-small-img m-auto rounded-img s:float-right s:ml-m">}}
+{{< figure src="/portfolio/profile-picture.jpg" alt="Profile image" class="extra-small-img m-auto rounded-img s:float-right s:ml-m">}}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras velit elit, vulputate eleifend posuere vel, rhoncus eget 
 diam. Nunc varius aliquet nibh, at viverra leo. Pellentesque mattis dictum malesuada. Class aptent taciti sociosqu ad 
