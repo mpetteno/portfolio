@@ -17,7 +17,7 @@ defaultMarkdownHandler = 'goldmark'
             escapedSpace = false
         [goldmark.extensions.extras]
             [goldmark.extensions.extras.delete]
-            enable = false
+                enable = false
             [goldmark.extensions.extras.insert]
                 enable = false
             [goldmark.extensions.extras.mark]
@@ -57,5 +57,5 @@ defaultMarkdownHandler = 'goldmark'
             enableDefault = false
     [goldmark.renderer]
         hardWraps = false
-        unsafe = false
-        xhtml = false
+        unsafe = true
+        xhtml = true

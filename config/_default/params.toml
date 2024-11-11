@@ -37,6 +37,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 30
     rel = 'external'
     target = '_blank'
+    hide = true
 [[social]]
     identifier = 'email'
     name = 'Email'
@@ -55,6 +56,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 50
     rel = 'external'
     target = '_blank'
+    hide = true
 [[social]]
     identifier = 'goodreads'
     name = 'Goodreads'
@@ -82,3 +84,13 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 80
     rel = 'external'
     target = '_blank'
+[[social]]
+    identifier = 'pinterest'
+    name = 'Pinterest'
+    url = 'https://it.pinterest.com/doc_36/'
+    icon = 'fa-brands fa-pinterest'
+    title = 'pinterest'
+    weight = 80
+    rel = 'external'
+    target = '_blank'
+    hide = true
