@@ -1,6 +1,8 @@
 
 #sasp-projects li button {
-    @apply bg-info-light dark:bg-info-dark;
+    @apply border-container rounded-s p-s bg-info-light dark:bg-info-dark hover:bg-notice-light
+    dark:hover:bg-notice-dark active:bg-brand-pressed-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
+    dark:text-secondary-inverse-dark;
 }
 
 #sasp-projects li div {
