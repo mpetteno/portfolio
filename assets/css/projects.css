@@ -1,0 +1,20 @@
+
+#sasp-projects li button {
+    @apply bg-info-light dark:bg-info-dark;
+}
+
+#sasp-projects li div {
+    @apply !justify-normal;
+}
+
+#sasp-projects li:not(:last-child) {
+    @apply mb-l;
+}
+
+#musical-acoustics-projects li div {
+    @apply !justify-normal;
+}
+
+#musical-acoustics-projects li:not(:last-child) {
+    @apply mb-l;
+}

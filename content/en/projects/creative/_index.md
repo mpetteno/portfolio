@@ -21,12 +21,14 @@ being morphed into a new shape, reminiscent of a
 {{< link href="https://en.wikipedia.org/wiki/Rorschach_test" title="Rorschach Test" target="_blank" >}},
 to finally express the idea of the distortion of the self caused by the filtering of external point of view.
 
+{{< projectKeywords "three.js, glsl, svelte, mediapipe, max4live, tone.js" >}}
+
 <div class="m:mb-l clear-both"></div>
 
 {{< projectTitle title="Pulseq" 
     title1="Code" link1="https://github.com/mpetteno-polimi/ACTM-Pulseq?tab=readme-ov-file#pulseq" icon1="fa-brands fa-square-github" 
     title2="Live Demo" link2="https://mpetteno-polimi.github.io/ACTM-Pulseq" icon2="fa-solid fa-desktop" >}}
-{{< giphy id="L21SKDrcwTMnoDNDSC" class="medium-img m-auto mb-m m:float-left m:mr-m m:mb-none" size="230px">}}
+{{< giphy id="L21SKDrcwTMnoDNDSC" class="medium-img m-auto mb-m m:float-right m:ml-m m:mb-none" size="230px">}}
 
 Pulseq is a fractal sequencer implemented as a single-page application (SPA) and inspired by the Eurorack module 
 {{< link href="https://www.qubitelectronix.com/shop/p/bloom" title="Bloom by Qu-Bit Electronix" target="_blank" >}}.
@@ -34,7 +36,8 @@ It uses a user-constructed sequence to recursively generate a tree of related su
 create large musical sequences that relate back to the originally programmed sequence. First, the user programs the main
 sequence which from now on will (called *trunk*) than the *branches* and *path* knobs can be used to control the tree 
 generation. Beside these knobs, the user has the possibility to play the sequences with eight different sounds and to 
-apply three different pre-set effects: a reverb, a ping-pong delay and a distortion (in control mode there are three 
-knobs that control the dry/wet mix for each effect).
+apply three different pre-set effects: a reverb, a ping-pong delay and a distortion.
+
+{{< projectKeywords "svelte, tone.js, glsl" >}}
 
 <div class="clear-both"></div>

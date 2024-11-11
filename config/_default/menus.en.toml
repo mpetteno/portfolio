@@ -69,7 +69,7 @@
     weight = 50
     [main.params]
 [[main]]
-    identifier = 'musical-acoutics-projects'
+    identifier = 'musical-acoustics-projects'
     name = 'musical acoustics'
     pageRef = '/projects/musical-acoustics'
     parent = 'projects'

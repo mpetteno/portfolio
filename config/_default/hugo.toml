@@ -8,7 +8,7 @@ canonifyURLs = false
 capitalizeListTitles = true
 cleanDestinationDir = false
 contentDir = 'content'
-copyright = 'Design with <a href="https://www.figma.com/" target="_blank"><span class="text-info-light dark:text-link-dark">Figma</span></a>, made with <a href="https://gohugo.io/" target="_blank"><span class="text-brand-light dark:text-brand-dark">Hugo</span></a>'
+copyright = 'Design with <a href="https://www.figma.com/" target="_blank"><span class="text-info-light dark:text-link-dark">Figma</span></a>, made with <a href="https://gohugo.io/" target="_blank"><span class="text-brand-light dark:text-brand-dark">Hugo</span></a>.'
 dataDir = 'data'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
