@@ -1,0 +1,20 @@
+
+.article li div {
+    @apply !justify-normal;
+}
+
+.article li:not(:last-child) {
+    @apply mb-l;
+}
+
+#creative-projects iframe {
+    @apply rounded-s
+}
+
+#computer-music-projects img {
+    @apply rounded-s
+}
+
+#sasp-projects li button {
+    @apply btn-secondary
+}

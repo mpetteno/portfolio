@@ -6,7 +6,7 @@ module.exports = {
     plugins: {
         ...defaultConfig.plugins,
         "postcss-import": {
-            "path": themeDir + "assets/css/"
+            "path": "./assets/css/",
         }
     }
 }

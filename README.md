@@ -2,5 +2,5 @@
 Repository for personal portfolio
 
 TODO
-- [ ] add resume
+- [ ] modify profile picture (resume)
 - [ ] add italian content

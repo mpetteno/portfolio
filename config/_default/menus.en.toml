@@ -69,7 +69,7 @@
     weight = 50
     [main.params]
 [[main]]
-    identifier = 'musical-acoutics-projects'
+    identifier = 'musical-acoustics-projects'
     name = 'musical acoustics'
     pageRef = '/projects/musical-acoustics'
     parent = 'projects'
@@ -81,7 +81,7 @@
 [[main]]
     identifier = 'resume'
     name = 'resume'
-    url = '/mpetteno-resume.pdf'
+    url = '/docs/mpetteno-resume.pdf'
     parent = ''
     post = ''
     pre = ''
@@ -91,12 +91,24 @@
         rel = 'external'
         target = '_blank'
 [[main]]
+    identifier = 'cv'
+    name = 'cv'
+    url = '/docs/mpetteno-cv.pdf'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'cv'
+    weight = 40
+    [main.params]
+        rel = 'external'
+        target = '_blank'
+[[main]]
     identifier = 'contactme'
-    name = 'contact me'
+    name = 'contact'
     pageRef = '/contactme'
     parent = ''
     post = ''
     pre = ''
-    title = 'contact me'
-    weight = 40
+    title = 'contact'
+    weight = 50
     [main.params]
