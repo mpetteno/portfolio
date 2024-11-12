@@ -1,22 +1,20 @@
 
+.article li div {
+    @apply !justify-normal;
+}
+
+.article li:not(:last-child) {
+    @apply mb-l;
+}
+
+#creative-projects iframe {
+    @apply rounded-s
+}
+
+#computer-music-projects img {
+    @apply rounded-s
+}
+
 #sasp-projects li button {
-    @apply border-container rounded-s p-s bg-info-light dark:bg-info-dark hover:bg-notice-light
-    dark:hover:bg-notice-dark active:bg-brand-pressed-light dark:active:bg-brand-pressed-dark text-secondary-inverse-light
-    dark:text-secondary-inverse-dark;
-}
-
-#sasp-projects li div {
-    @apply !justify-normal;
-}
-
-#sasp-projects li:not(:last-child) {
-    @apply mb-l;
-}
-
-#musical-acoustics-projects li div {
-    @apply !justify-normal;
-}
-
-#musical-acoustics-projects li:not(:last-child) {
-    @apply mb-l;
+    @apply btn-secondary
 }

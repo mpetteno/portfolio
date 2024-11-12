@@ -18,7 +18,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 10
     rel = 'external'
     target = '_blank'
-    hide = 'true'
+    hide = true
 [[social]]
     identifier = 'github-polimi'
     name = 'Github Polimi'
@@ -28,16 +28,17 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 20
     rel = 'external'
     target = '_blank'
+    hide = false
 [[social]]
     identifier = 'linkedin'
     name = 'Linkedin'
-    url = '#'
+    url = 'https://www.linkedin.com/in/mpetteno/'
     icon = 'fa-brands fa-linkedin'
     title = 'linkedin'
     weight = 30
     rel = 'external'
     target = '_blank'
-    hide = true
+    hide = false
 [[social]]
     identifier = 'email'
     name = 'Email'
@@ -47,6 +48,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 40
     rel = 'next'
     target = '_self'
+    hide = false
 [[social]]
     identifier = 'kaggle'
     name = 'Kaggle'
@@ -66,24 +68,27 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 60
     rel = 'external'
     target = '_blank'
+    hide = false
 [[social]]
     identifier = 'untappd'
     name = 'Untappd'
     url = 'https://untappd.com/user/doc_56'
     icon = 'fa-brands fa-untappd'
     title = 'untappd'
-    weight = 70
+    weight = 80
     rel = 'external'
     target = '_blank'
+    hide = false
 [[social]]
     identifier = 'strava'
     name = 'Strava'
     url = 'https://www.strava.com/athletes/doc56'
     icon = 'fa-brands fa-strava'
     title = 'strava'
-    weight = 80
+    weight = 70
     rel = 'external'
     target = '_blank'
+    hide = false
 [[social]]
     identifier = 'pinterest'
     name = 'Pinterest'

@@ -91,6 +91,18 @@
         rel = 'external'
         target = '_blank'
 [[main]]
+    identifier = 'cv'
+    name = 'cv'
+    url = '/docs/mpetteno-cv.pdf'
+    parent = ''
+    post = ''
+    pre = ''
+    title = 'cv'
+    weight = 40
+    [main.params]
+        rel = 'external'
+        target = '_blank'
+[[main]]
     identifier = 'contactme'
     name = 'contact'
     pageRef = '/contactme'
@@ -98,5 +110,5 @@
     post = ''
     pre = ''
     title = 'contact'
-    weight = 40
+    weight = 50
     [main.params]

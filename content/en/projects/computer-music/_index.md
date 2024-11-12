@@ -21,7 +21,7 @@ filter.
 
 {{< projectTitle title="HarMMMLonizer"
 title1="Code" link1="https://github.com/mpetteno-polimi/CMLS-Homework1?tab=readme-ov-file#harmmmlonizer" icon1="fa-brands fa-square-github" >}}
-{{< figure src="/harmonizer-gui.png" alt="HarMMMLonizer GUI" class="large-img m-auto mb-m m:float-left m:mr-m m:mb-none" >}}
+{{< figure src="/harmonizer-gui.png" alt="HarMMMLonizer GUI" class="large-img m-auto mb-m m:float-right m:ml-m m:mb-none" >}}
 
 HarMMMLonizer is a real-time harmonizer implemented in SuperCollider. The software implements a DSP system featuring 
 mono input and stereo output. The DSP chain includes a delay line block which supports different feedback setups. 
@@ -30,3 +30,5 @@ to pitch shifting, delay effect and master. HarMMMLonizer supports three additio
 but a global variable within the code enables the programmer to change the number of voices.
 
 {{< projectKeywords "supercollider, harmonizer, delay lines, crosstalk delay feedback" >}}
+
+<div class="m:mb-l clear-both"></div>
