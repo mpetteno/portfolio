@@ -3,7 +3,7 @@ title = 'About me'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
-{{< figure src="/profile-picture.webp" alt="Profile image" class="extra-small-img m-auto mb-l rounded-img s:float-right s:ml-m">}}
+{{< figure src="/profile-picture.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
 
 I am engineer with a strong background in information theory and my passion for music led me to obtain a
 degree in Music and Acoustic Engineering. Throughout my education, I have developed knowledge in machine

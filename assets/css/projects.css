@@ -15,6 +15,6 @@
     @apply rounded-s
 }
 
-#sasp-projects li button {
+#sasp-projects li a {
     @apply btn-secondary
 }
