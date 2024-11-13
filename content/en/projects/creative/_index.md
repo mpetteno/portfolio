@@ -5,7 +5,7 @@ draft = false
 +++
 {{< projectTitle title="Ego"
 title1="Code" link1="https://github.com/mpetteno-polimi/CPAC-Ego?tab=readme-ov-file#ego" icon1="fa-brands fa-square-github"
-title2="Live Demo" subtitle2="(desktop only)" link2="https://mpetteno-polimi.github.io/CPAC-Ego/" icon2="fa-solid fa-desktop" >}}
+title2="Live Demo" link2="https://mpetteno-polimi.github.io/CPAC-Ego/" icon2="fa-solid fa-desktop" hideMobile2=true >}}
 {{< youtube id="zK5xQAdvrfw" loading="lazy" class="flex justify-center m-auto mb-m m:float-right m:ml-m m:mb-none" >}}
 
 Ego is a project that is meant to explore the idea of human perception, in particular the idea of identity and self 
@@ -27,7 +27,7 @@ to finally express the idea of the distortion of the self caused by the filterin
 
 {{< projectTitle title="Pulseq" 
     title1="Code" link1="https://github.com/mpetteno-polimi/ACTM-Pulseq?tab=readme-ov-file#pulseq" icon1="fa-brands fa-square-github" 
-    title2="Live Demo" subtitle2="(desktop only)" link2="https://mpetteno-polimi.github.io/ACTM-Pulseq" icon2="fa-solid fa-desktop" >}}
+    title2="Live Demo" link2="https://mpetteno-polimi.github.io/ACTM-Pulseq" icon2="fa-solid fa-desktop" hideMobile2=true >}}
 {{< giphy id="L21SKDrcwTMnoDNDSC" class="medium-img m-auto mb-m m:float-right m:ml-m m:mb-none" size="230px">}}
 
 Pulseq is a fractal sequencer implemented as a single-page application (SPA) and inspired by the Eurorack module 
