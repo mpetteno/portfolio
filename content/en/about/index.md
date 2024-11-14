@@ -15,3 +15,6 @@ working in the IT sector as a full-stack developer, software architect, and DevO
 <span class="text-notice-light dark:text-notice-dark">seeking a role in the deep learning field</span>, 
 ideally in research or engineering, with a focus on generative AI: my aim is to follow a path that aligns with the work 
 done in my {{< link href="#master-thesis" title="Master’s thesis" >}}, and to further build my skills in these areas.
+Feel free to review my {{< link href="/portfolio/docs/mpetteno-resume.pdf" title="resume" target="_blank" >}} or my
+{{< link href="/portfolio/docs/mpetteno-cv.pdf" title="full CV" target="_blank" >}} for more details about my background 
+and experience.
