@@ -99,3 +99,13 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     rel = 'external'
     target = '_blank'
     hide = true
+[[social]]
+    identifier = 'reddit'
+    name = 'Reddit'
+    url = 'https://www.reddit.com/user/doc_56/'
+    icon = 'fa-brands fa-reddit'
+    title = 'reddit'
+    weight = 90
+    rel = 'external'
+    target = '_blank'
+    hide = true

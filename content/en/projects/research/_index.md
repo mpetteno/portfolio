@@ -3,12 +3,12 @@ title = 'Research Activity'
 date = 2023-01-01T08:30:00-07:00
 draft = false
 +++
-{{< projectTitle title="Latent Space Regularization via Normalizing Attribute Transformations"
+{{< projectTitle id="master-thesis" title="Latent Space Regularization via Normalizing Attribute Transformations"
 title1="Code" link1="https://github.com/mpetteno-polimi/thesis?tab=readme-ov-file#latent-space-regularization-via-normalizing-attribute-transformations-for-symbolic-music-generation" icon1="fa-brands fa-square-github" 
 title2="Dataset" link2="https://zenodo.org/records/13369389" icon2="fa-solid fa-database" >}}
 
 This research project in Deep Learning builds on top of the 
-{{< link href="https://arxiv.org/abs/1612.00410" title="variational information bottleneck (VIB)" target="_blank" >}},
+{{< link href="https://arxiv.org/abs/1612.00410" title="variational information bottleneck (VIB)" target="_blank" >}}
 framework (a generalization of the well known VAE) and it uses a supervised multi-objective learning approach that 
 allows to encode a particular attribute relative to the input in a designated dimension of the latent space by 
 introducing a regularization term. This offer precise control over a specific attribute of the content to generate by 

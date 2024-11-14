@@ -5,10 +5,13 @@ draft = false
 +++
 {{< figure src="/profile-picture.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
 
-I am engineer with a strong background in information theory and my passion for music led me to obtain a
-degree in Music and Acoustic Engineering. Throughout my education, I have developed knowledge in machine
-learning, system and control theory, signal processing and electronics. I have always managed to combine my
-academic career with my professional development, working as a consultant in the IT sector in the role of
-full-stack developer, software architect and DevOps engineer. For this reason, I consider myself a determined
-person who works hard to achieve the goals he has set for himself. I’m seeking a role in the context of AI as a
-machine learning or data engineer that allows me to enhance my skills in this exciting fields.
+I am an engineer with a strong foundation in information theory, earned during my Bachelor’s degree at the
+{{< link href="https://bestr.it/award/show/fmGz2P-jTbOE9qguGcwqmA" title="University of Padova" target="_blank" >}},
+and a deep passion for audio that led me to pursue a Master’s degree in Music and Acoustic Engineering at
+{{< link href="https://www.polimi.it/en/education/laurea-magistrale-programmes/programme-detail/music-and-acoustic-engineering" title="Politecnico di Milano" target="_blank" >}}
+My academic journey has equipped me with a solid understanding of deep learning, machine learning, control systems, 
+signal processing, and electronics. Alongside my studies, I have continuously advanced my professional development, 
+working in the IT sector as a full-stack developer, software architect, and DevOps engineer. I am now 
+<span class="text-notice-light dark:text-notice-dark">seeking a role in the deep learning field</span>, 
+ideally in research or engineering, with a focus on generative AI: my aim is to follow a path that aligns with the work 
+done in my {{< link href="#master-thesis" title="Master’s thesis" >}}, and to further build my skills in these areas.
