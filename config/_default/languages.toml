@@ -4,7 +4,7 @@
     languageCode = 'en-US'
     languageDirection = 'ltr'
     languageName = 'English'
-    title = ''
+    title = "Matteo Pettenò's Portfolio"
     weight = 0
 [it]
     contentDir = 'content/it'
@@ -12,6 +12,5 @@
     languageCode = 'it-iT'
     languageDirection = 'ltr'
     languageName = 'Italian'
-    title = ''
+    title = "Portfolio di Matteo Pettenò"
     weight = 1
-
