@@ -1,7 +1,7 @@
 [disqus]
     disable = false
 [googleAnalytics]
-    disable = false
+    disable = true
     respectDoNotTrack = false
 [instagram]
     disable = false
