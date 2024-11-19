@@ -2,6 +2,10 @@
 title = 'About me'
 date = 2023-01-01T08:00:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 {{< figure src="/profile-picture1.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
 

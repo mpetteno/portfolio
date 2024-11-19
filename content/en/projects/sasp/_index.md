@@ -2,6 +2,10 @@
 title = 'Sound Analysis Synthesis & Processing Projects'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 - {{< projectTitle title="Wave Digital Filter Modeling"
 title1="Report" link1="https://github.com/mpetteno-polimi/hw-projects-reports/blob/main/sasp/sssp/hw4/report.pdf" icon1="fa-solid fa-file-pdf" >}}

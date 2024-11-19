@@ -2,6 +2,10 @@
 title = 'Computer Music Projects'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 {{< projectTitle title="OranJam"
 title1="Code" link1="https://github.com/mpetteno-polimi/CMLS-Homework2?tab=readme-ov-file#oranjam" icon1="fa-brands fa-square-github" >}}

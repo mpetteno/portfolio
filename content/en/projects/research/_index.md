@@ -2,6 +2,10 @@
 title = 'Research Activity'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 {{< projectTitle id="master-thesis" title="Latent Space Regularization via Normalizing Attribute Transformations"
 title1="Code" link1="https://github.com/mpetteno-polimi/thesis?tab=readme-ov-file#latent-space-regularization-via-normalizing-attribute-transformations-for-symbolic-music-generation" icon1="fa-brands fa-square-github" 

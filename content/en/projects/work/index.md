@@ -2,6 +2,10 @@
 title = 'Professional Experience'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 I bring years of experience in software development, architecture, and DevOps, primarily through consultancy roles 
 within the {{< link href="https://www.arsenalia.group/" title="Arsenalia Group" target="_blank" >}}, which includes the 

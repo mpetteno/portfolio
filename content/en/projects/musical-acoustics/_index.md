@@ -2,6 +2,10 @@
 title = 'Musical Acoustics Projects'
 date = 2023-01-01T08:30:00-07:00
 draft = false
+[_build]
+render = 'never'
+[cascade._build]
+render = 'never'
 +++
 - {{< projectTitle title="Design of a Recorder Flute"
   title1="Report" link1="https://github.com/mpetteno-polimi/hw-projects-reports/blob/main/ma/hw5/report.pdf" icon1="fa-solid fa-file-pdf" >}}
