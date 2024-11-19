@@ -3,7 +3,7 @@ title = 'About me'
 date = 2023-01-01T08:00:00-07:00
 draft = false
 +++
-{{< figure src="/profile-picture.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
+{{< figure src="/profile-picture1.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
 
 I am an engineer with a strong foundation in information theory, earned during my Bachelor’s degree at the
 {{< link href="https://bestr.it/award/show/fmGz2P-jTbOE9qguGcwqmA" title="University of Padova" target="_blank" >}},
