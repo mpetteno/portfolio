@@ -1,14 +1,11 @@
 {{ define "main" }}
-<div class="w-3/5 m-auto">
-    <h1>{{ .Title }}</h1>
+<h1 class="text-2xl font-bold mb-4">{{ .Title }}</h1>
 
-    <h2>Aaaaaaaaa</h2>
+<form onsubmit="event.preventDefault(); solveAoC('{{ .Params.year }}', '{{ .Params.day }}', '1');" class="space-y-4">
+    <textarea id="inputFile" class="w-full h-40 p-2 border rounded" placeholder="Enter your text here..."></textarea>
+    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Submit</button>
+</form>
 
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-
-    {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-</div>
+<h2 class="text-xl font-bold mt-6">Response:</h2>
+<textarea id="responseOutput" class="w-full h-40 p-2 border rounded bg-gray-100" readonly></textarea>
 {{ end }}
