@@ -39,6 +39,16 @@
     weight = 20
     [main.params]
 [[main]]
+    identifier = 'personal-projects'
+    name = 'personal'
+    pageRef = '/projects/personal'
+    parent = 'projects'
+    post = ''
+    pre = ''
+    title = 'personal projects'
+    weight = 30
+    [main.params]
+[[main]]
     identifier = 'creative-projects'
     name = 'creative'
     pageRef = '/projects/creative'
@@ -46,7 +56,7 @@
     post = ''
     pre = ''
     title = 'creative projects'
-    weight = 30
+    weight = 40
     [main.params]
 [[main]]
     identifier = 'computer-music-projects'
@@ -56,7 +66,7 @@
     post = ''
     pre = ''
     title = 'computer music projects'
-    weight = 40
+    weight = 50
     [main.params]
 [[main]]
     identifier = 'sasp-projects'
@@ -66,7 +76,7 @@
     post = ''
     pre = ''
     title = 'sound analysis synthesis & processing'
-    weight = 50
+    weight = 60
     [main.params]
 [[main]]
     identifier = 'musical-acoustics-projects'
@@ -76,7 +86,7 @@
     post = ''
     pre = ''
     title = 'musical acoustics'
-    weight = 60
+    weight = 70
     [main.params]
 [[main]]
     identifier = 'resume'
