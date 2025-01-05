@@ -18,7 +18,8 @@ data structures to mathematical problems and optimization challenges.
 <div class="m:mb-l clear-both"></div>
 
 {{< projectTitle title="Around the Job"
-title1="Code" link1="https://github.com/mpetteno/around-the-job" icon1="fa-brands fa-square-github" >}}
+title1="Code" link1="https://github.com/mpetteno/around-the-job" icon1="fa-brands fa-square-github"
+title2="Web App" link2="https://around-the-job.web.app/" icon2="fa-solid fa-globe" >}}
 
 Around the Job (hello Daft Punk), is a web app I built to assist with my job search. Over the 
 past few years, I collected data about companies I was interested in and decided to display them on an interactive map 
