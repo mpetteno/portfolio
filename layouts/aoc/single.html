@@ -1,11 +1,19 @@
 {{ define "main" }}
-<h1 class="text-2xl font-bold mb-4">{{ .Title }}</h1>
-
-<form onsubmit="event.preventDefault(); solveAoC('{{ .Params.year }}', '{{ .Params.day }}', '1');" class="space-y-4">
-    <textarea id="inputFile" class="w-full h-40 p-2 border rounded" placeholder="Enter your text here..."></textarea>
-    <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600">Submit</button>
-</form>
-
-<h2 class="text-xl font-bold mt-6">Response:</h2>
-<textarea id="responseOutput" class="w-full h-40 p-2 border rounded bg-gray-100" readonly></textarea>
+    <div class="flex flex-col items-center space-y-l mb-xl">
+        <h2 class="heading-m">Advent of Code {{ .Params.Year }}</h2>
+        <div class="flex items-center space-x-m">
+            <h2 class="heading-m hover:text-link-hover-light hover:dark:text-link-hover-dark">
+                <a href="https://adventofcode.com/{{ .Params.Year }}/day/{{ .Params.Day }}" target="_blank">
+                    {{ .Title }} - {{ .Params.AoCTitle }}
+                </a>
+            </h2>
+            <a href="https://github.com/mpetteno/aoc/tree/main/editions/{{ .Params.Year }}/day{{ .Params.Day }}"
+               class="btn-brand" target="_blank">
+                <i class="fa-brands fa-github mr-s"></i>Source
+            </a>
+        </div>
+    </div>
+    <div id="aoc" class="article w-full m:w-3/4 xl:w-1/2 space-y-xl">
+        <p>{{ .Content }}</p>
+    </div>
 {{ end }}

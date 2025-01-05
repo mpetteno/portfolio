@@ -1,0 +1,24 @@
+{{ $year := (.Get "year")  }}
+{{ $day := (.Get "day")  }}
+<h3>Solver</h3>
+<form id="solver-form}" class="space-y-4"
+      onsubmit='event.preventDefault(); solveAoC(event, "{{ $year }}", "{{ $day }}");' >
+    <label>
+            <textarea id="input-file" class="!h-[224px] txt-input-bordered resize-none" type="text" name="message"
+                      placeholder="Enter your input file here..."></textarea>
+    </label>
+    <div class="flex items-start space-x-m">
+        <button type="submit" class="w-12xl !h-[75px] btn-secondary" data-part="1">Solve Part 1</button>
+        <label class="flex-grow">
+            <textarea id="output-response-1" class="!h-[75px] txt-input-bordered resize-none" readonly
+                      placeholder="Solution"></textarea>
+        </label>
+    </div>
+    <div class="flex items-start space-x-m">
+        <button type="submit" class="w-12xl !h-[75px] btn-secondary" data-part="2">Solve Part 2</button>
+        <label class="flex-grow">
+            <textarea id="output-response-2" class="!h-[75px] txt-input-bordered resize-none" readonly
+                      placeholder="Solution"></textarea>
+        </label>
+    </div>
+</form>

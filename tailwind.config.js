@@ -7,7 +7,8 @@ module.exports = {
     content: [
         ...defaultConfig.content,
         themeDir + 'layouts/**/*.html',
-        'config/_default/hugo.toml'
+        'config/_default/hugo.toml',
+        'assets/js/**/*.js',
     ],
     theme: {
         ...defaultConfig.theme,

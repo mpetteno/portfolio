@@ -23,4 +23,4 @@ Additionally, at {{< link href="https://www.walit.it/" title="Walit" target="_bl
 cloud infrastructure by designing and maintaining Google Cloud environments for deep learning projects, setting up 
 CI/CD pipelines in Gitlab, and ensuring application security with OWASP ZAP.
 
-{{< projectKeywords "Kering Eyewear, Stella McCartney, Bonfiglioli, Cellularline and PegPerego" "Main clients">}}
+{{< projectKeywords "Kering Eyewear, Stella McCartney, Bonfiglioli, Cellularline, PegPerego" "Main clients">}}

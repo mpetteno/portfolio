@@ -6,7 +6,7 @@ draft = false
 render = 'never'
 +++
 {{< projectTitle title="Advent of Code" id="aoc"
-title1="Page" link1="./projects/personal/aoc" icon1="fa-solid fa-newspaper" >}}
+title1="Page" link1="./projects/personal/aoc" icon1="fa-solid fa-newspaper" target1="_self" >}}
 
 {{< link href="https://adventofcode.com/" title="Advent of Code" target="_blank" >}} is an annual event that takes
 place every December, where participants solve a series of programming puzzles. Each puzzle is released daily, starting
