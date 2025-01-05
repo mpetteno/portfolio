@@ -8,6 +8,7 @@ year = 2024
 day = 4
 [params]
     aocTitle = "Ceres Search"
+    solutionFileName = "solution.py"
 +++
 
 ### Part 1

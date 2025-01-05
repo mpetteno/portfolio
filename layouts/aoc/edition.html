@@ -15,9 +15,7 @@
   <div id="aoc" class="article w-full m:w-3/5 xl:w-1/2 space-y-xl">
     <div id="grid-container" class="grid grid-cols-5 gap-m text-center alternate-btn">
       {{ range .Pages.ByDate }}
-        <div class="btn-secondary px-4 py-2">
-          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        </div>
+        <a href="{{ .RelPermalink }}" class="flex justify-center btn-secondary px-4 py-2">{{ .LinkTitle }}</a>
       {{ end }}
     </div>
   </div>

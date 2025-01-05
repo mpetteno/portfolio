@@ -1,17 +1,39 @@
 {{ define "main" }}
-    <div class="flex flex-col items-center space-y-l mb-xl">
-        <h2 class="heading-m">Advent of Code {{ .Params.Year }}</h2>
-        <div class="flex items-center space-x-m">
+    <div class="flex w-full items-center justify-evenly m:w-3/4 xl:w-1/2 mb-xl">
+        {{ if and .Prev .Prev.Permalink }}
+            <a href="{{ .Prev.Permalink }}" class="btn-secondary flex items-center space-x-m">
+                <i class='fa-solid fa-angle-left'></i>
+                <span>{{ .Prev.Title }}</span>
+            </a>
+        {{ else }}
+            <a class="btn-secondary invisible">Day 0</a>
+        {{ end }}
+        <div class="flex flex-col items-center space-y-l mr-5xl ml-5xl">
             <h2 class="heading-m hover:text-link-hover-light hover:dark:text-link-hover-dark">
-                <a href="https://adventofcode.com/{{ .Params.Year }}/day/{{ .Params.Day }}" target="_blank">
-                    {{ .Title }} - {{ .Params.AoCTitle }}
+                <a href="{{ .Parent.RelPermalink }}" target="_self">
+                    Advent of Code {{ .Params.Year }}
                 </a>
             </h2>
-            <a href="https://github.com/mpetteno/aoc/tree/main/editions/{{ .Params.Year }}/day{{ .Params.Day }}"
-               class="btn-brand" target="_blank">
-                <i class="fa-brands fa-github mr-s"></i>Source
-            </a>
+            <div class="flex flex-col items-center space-y-m">
+                <h3 class="heading-s hover:text-link-hover-light hover:dark:text-link-hover-dark">
+                    <a href="https://adventofcode.com/{{ .Params.Year }}/day/{{ .Params.Day }}" target="_blank">
+                        {{ .Title }} - {{ .Params.AoCTitle }}
+                    </a>
+                </h3>
+                <a href="https://github.com/mpetteno/aoc/tree/main/editions/{{ .Params.Year }}/day{{ .Params.Day }}/{{ .Params.SolutionFileName }}"
+                   class="btn-brand" target="_blank">
+                    <i class="fa-brands fa-github mr-s"></i>Solution Code
+                </a>
+            </div>
         </div>
+        {{ if and .Next .Next.Permalink }}
+            <a href="{{ .Next.Permalink }}" class="btn-secondary flex items-center space-x-m">
+                <span>{{ .Next.Title }}</span>
+                <i class='fa-solid fa-angle-right'></i>
+            </a>
+        {{ else }}
+            <a class="btn-secondary invisible">Day 26</a>
+        {{ end }}
     </div>
     <div id="aoc" class="article w-full m:w-3/4 xl:w-1/2 space-y-xl">
         <p>{{ .Content }}</p>

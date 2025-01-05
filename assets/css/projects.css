@@ -23,11 +23,11 @@
     @apply btn-secondary
 }
 
-.alternate-btn > div:nth-child(odd) {
+.alternate-btn > a:nth-child(odd){
     @apply btn-secondary;
 }
 
-.alternate-btn > div:nth-child(5n+2),
-.alternate-btn > div:nth-child(5n+4) {
+.alternate-btn > a:nth-child(5n+2),
+.alternate-btn > a:nth-child(5n+4) {
     @apply btn-brand;
 }

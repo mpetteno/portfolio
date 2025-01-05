@@ -1,5 +1,5 @@
 async function solveAoC(event, year, day) {
-    part = event.submitter.getAttribute('data-part')
+    const part = event.submitter.getAttribute('data-part')
     const inputFile = document.getElementById("input-file").value;
     const responseOutput = document.getElementById("output-response-" + part);
     responseOutput.value = "";
