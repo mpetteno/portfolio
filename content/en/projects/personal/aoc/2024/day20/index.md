@@ -1,9 +1,9 @@
 +++
-title = 'Day 1'
-date = 2024-12-01T19:30:00
+title = 'Day 20'
+date = 2024-12-20T19:30:00
 draft = false
 type = 'aoc'
 layout = 'day'
 year = 2024
-day = 1
+day = 20
 +++

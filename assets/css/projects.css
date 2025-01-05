@@ -18,3 +18,16 @@
 #sasp-projects li a {
     @apply btn-secondary
 }
+
+#personal-projects #aoc a {
+    @apply btn-secondary
+}
+
+.alternate-btn > div:nth-child(odd) {
+    @apply btn-secondary;
+}
+
+.alternate-btn > div:nth-child(5n+2),
+.alternate-btn > div:nth-child(5n+4) {
+    @apply btn-brand;
+}

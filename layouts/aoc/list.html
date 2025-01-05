@@ -1,0 +1,19 @@
+{{ define "main" }}
+    <div class="flex items-center space-x-m mb-l">
+        <h2 class="heading-m">{{ .Title }}</h2>
+        <a href="https://github.com/mpetteno/aoc/" class="btn-secondary" target="_blank">
+            <i class="fa-brands fa-github mr-s"></i>Repository
+        </a>
+    </div>
+    <div id="aoc" class="article w-full m:w-4/5 xl:w-2/3 space-y-xl">
+        <div class="flex flex-wrap items-center space-x-m">
+            <h3 class="heading-s">Editions</h3>
+            {{ range .Pages }}
+            <a href="{{ .RelPermalink }}" class="btn-brand w-fit flex items-center self-stretch">
+                {{ .Params.Year }} - {{ .Params.Language }}
+            </a>
+            {{ end }}
+        </div>
+        <p>{{ .Content }}</p>
+    </div>
+{{ end }}

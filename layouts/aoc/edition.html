@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <div class="flex flex-col items-center space-y-m mb-2xl">
+    <h2 class="heading-m hover:text-link-hover-light hover:dark:text-link-hover-dark">
+      <a href="https://adventofcode.com/{{ .Params.Year }}" target="_blank">{{ .Title }}</a>
+    </h2>
+    <div class="flex items-center space-x-m mb-l">
+      <h3 class="heading-s hover:text-link-hover-light hover:dark:text-link-hover-dark">
+        <a href="{{ .Params.LanguageURL }}" target="_blank">Language: {{ .Params.Language }}</a>
+      </h3>
+      <a href="https://github.com/mpetteno/aoc/" class="btn-brand" target="_blank">
+        <i class="fa-brands fa-github mr-s"></i>Solutions
+      </a>
+    </div>
+  </div>
+  <div id="aoc" class="article w-full m:w-3/5 xl:w-1/2 space-y-xl">
+    <div id="grid-container" class="grid grid-cols-5 gap-m text-center alternate-btn">
+      {{ range .Pages.ByDate }}
+        <div class="btn-secondary px-4 py-2">
+          <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+{{ end }}
