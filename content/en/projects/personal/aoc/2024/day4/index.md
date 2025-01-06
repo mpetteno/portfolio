@@ -12,25 +12,18 @@ day = 4
 +++
 
 ### Part 1
-The problem involves finding all occurrences of the word “XMAS” in a 2D grid of letters, resembling a word search 
-puzzle. The word can appear in any of 8 possible directions—horizontally, vertically, or diagonally—and may overlap or
-share letters with other occurrences. To solve this, the grid is treated as a matrix, and each cell is examined as a 
-potential starting point for the word. From each starting point, searches are conducted in all 8 directions to verify 
-whether the letters in sequence match “XMAS.” The process continues until all positions in the grid have been checked,
-counting every valid occurrence. The algorithm leverages loops and boundary checks to ensure searches do not exceed the 
-grid’s limits. This approach effectively handles the complexity of overlapping patterns and varying orientations, 
-providing the total count of occurrences of the word in the puzzle.
+In the first part of the challenge, the task is to find all occurrences of the word “XMAS” in a word search puzzle.
+The word can appear in various directions: horizontally, vertically, or diagonally, both forward and backward. 
+To solve this, a depth-first search (DFS) approach is used, where each cell in the puzzle that matches the first 
+letter of the target word is explored. For each starting point, the search proceeds in multiple possible directions 
+to see if the word “XMAS” can be formed. A counter is kept to track how many times the word is found.
 
 ### Part 2
-In this updated version of the puzzle, the task is no longer to find occurrences of the word “XMAS” but instead to 
-identify patterns that form an X-MAS shape in the grid. An X-MAS consists of two “MAS” sequences arranged in the shape
-of an X—one “MAS” forming the top-left to bottom-right diagonal, and the other forming the top-right to bottom-left 
-diagonal. Each “MAS” can be written either forwards or backwards.
-
-The solution involves scanning the grid for the center of a potential X-MAS pattern, then checking all diagonal 
-directions to validate whether two “MAS” sequences align symmetrically. The algorithm iterates through each 
-cell in the grid, treating it as a possible center point, and verifies if the required diagonal patterns exist. This 
-approach accounts for overlaps, reversals, and varying orientations to accurately count all occurrences of the X-MAS 
-pattern in the puzzle.
+In the second part, the challenge requires finding instances of the word “MAS” that cross through the middle of the 
+word and appear both diagonally in opposite directions. To solve this, a helper function checks for diagonal matches, 
+considering both forward and reversed matches. Specifically, the middle character of “MAS” is used as a starting point,
+and two diagonal directions are checked: one from the upper-left to lower-right and the other from the upper-right to 
+lower-left. If both diagonals contain the word “MAS”, the crossed word count is incremented. The final answer is the 
+total number of such occurrences.
 
 {{< aocSolver year="2024" day="4" >}}
