@@ -9,6 +9,7 @@ layout = 'edition'
     languageURL = 'https://www.python.org/'
     year = '2024'
 +++
+<small><sup>*</sup>Descriptions of the solutions for this edition are mostly AI generated due to lack of time.</small>
 
 {{< projectTitle title="Solver implementation" title1="Source"
 link1="https://github.com/mpetteno/aoc/blob/main/solvers/py_solver.py" icon1="fa-solid fa-code" target1="_blank" >}}
