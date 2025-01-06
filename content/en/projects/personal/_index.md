@@ -13,6 +13,15 @@ place every December, where participants solve a series of programming puzzles. 
 on December 1st and continuing through December 25th. The puzzles cover a wide range of topics, from algorithms and
 data structures to mathematical problems and optimization challenges.
 
+Each year, I will choose a programming language either randomly or deliberately if I wish to learn or explore a
+specific language. I will follow two rules: no external help and no external libraries.
+
+Every day, I will attempt to solve the proposed challenge and publish a brief description of the solution on this
+website.
+
+Additionally, I have implemented a web server that can be called from each day’s page: this server
+allows you to upload the input file for the current day’s challenge and returns the solution.
+
 {{< projectKeywords "python, flask, render, coding-challenge" >}}
 
 <div class="m:mb-l clear-both"></div>
