@@ -14,8 +14,8 @@ data structures to mathematical problems and optimization challenges.
 Each year, I will choose a programming language either randomly or deliberately if I wish to learn or explore a 
 specific language.
 
-I will follow two rules: no external help and no external libraries.\
-Also, the two parts of each challenge are considered independent, meaning part 2 will recompute part 1 if necessary.
+I will follow two rules: no external help and no external libraries. Also, the two parts of each challenge are 
+considered independent, meaning part 2 will recompute part 1 if necessary.
 
 Every day, I will attempt to solve the proposed challenge and publish a brief description of the solution on this page.
 

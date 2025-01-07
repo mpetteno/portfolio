@@ -21,9 +21,10 @@ starting with “z” are concatenated and converted into a decimal number. The 
 
 ### Part 2
 
-In the second part of the challenge, the validation involves checking if the gates follow the constraints of a [full
-adder](https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder). A full adder is used to sum two binary numbers 
-and produce a sum and carry output. The full adder logic and corresponding constraints for the gates are as follows:
+In the second part of the challenge, the validation involves checking if the gates follow the constraints of a
+{{< link href="https://en.wikipedia.org/wiki/Adder_(electronics)#Full_adder" title="full adder" target="_blank" >}}. 
+A full adder is used to sum two binary numbers and produce a sum and carry output. The full adder logic and
+corresponding constraints for the gates are as follows:
 
 **XOR Gate (⊕)**
 - XOR gates can only be used to produce the **sum bit** of the full adder.
