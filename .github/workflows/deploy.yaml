@@ -53,11 +53,19 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Setup Python virtualenv
-        run: ./py_venv_setup.sh ${{ runner.temp }}
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install Dependencies
+        run: |
+          python -m venv venv
+          source venv/bin/activate
+          pip install --upgrade pip
+          pip install -r requirements.txt
       - name: Render with Quarto
         run: |
-          source ${{ runner.temp }}/venv/bin/activate && quarto render
+          source ./venv/bin/activate && quarto render
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
