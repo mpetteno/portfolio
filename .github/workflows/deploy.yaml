@@ -37,7 +37,7 @@ jobs:
     steps:
       - name: Install Quarto CLI
         run: |
-          wget -O ${{ runner.temp }}/quarto.deb https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amm64.deb \
+          wget -O ${{ runner.temp }}/quarto.deb https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/quarto.deb
       - name: Install Hugo CLI
         run: |
