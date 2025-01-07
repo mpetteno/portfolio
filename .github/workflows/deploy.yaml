@@ -54,7 +54,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Setup Python virtualenv
-        run: ./py_env_setup.sh
+        run: ./py_venv_setup.sh
       - name: Render with Quarto
         run: |
           source ./venv/bin/activate && quarto render
