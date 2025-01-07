@@ -54,10 +54,10 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
       - name: Setup Python virtualenv
-        run: ./py_venv_setup.sh
+        run: ./py_venv_setup.sh ${{ runner.temp }}
       - name: Render with Quarto
         run: |
-          source ./venv/bin/activate && quarto render
+          source ${{ runner.temp }}/venv/bin/activate && quarto render
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
