@@ -9,3 +9,9 @@ node_modules/
 public/
 resources/
 hugo_stats.json
+/.quarto/
+/content/**/quarto/**/index_files/
+/content/**/quarto/**/index.md
+
+# Python
+venv/

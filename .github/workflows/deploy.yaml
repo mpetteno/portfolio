@@ -32,8 +32,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.140.0
+      HUGO_VERSION: 0.140.2
+      QUARTO_VERSION: 1.6.40
     steps:
+      - name: Install Quarto CLI
+        run: |
+          wget -O ${{ runner.temp }}/quarto.deb https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-arm64.deb \
+          && sudo dpkg -i ${{ runner.temp }}/quarto.deb
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
@@ -48,6 +53,11 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Setup Python virtualenv
+        run: . ./py_env_setup.sh
+      - name: Render with Quarto
+        run: |
+          source ./venv/bin/activate && quarto render
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache

@@ -2,3 +2,5 @@
     extended = true
     min = ''
     max = ''
+[module.mounts]
+excludeFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
