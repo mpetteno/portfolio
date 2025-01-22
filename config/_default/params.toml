@@ -18,7 +18,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 10
     rel = 'external'
     target = '_blank'
-    hide = true
+    hide = false
 [[social]]
     identifier = 'github-polimi'
     name = 'Github Polimi'
@@ -28,7 +28,7 @@ fontawesomeKitUrl = 'https://kit.fontawesome.com/3fe49439a1.js'
     weight = 20
     rel = 'external'
     target = '_blank'
-    hide = false
+    hide = true
 [[social]]
     identifier = 'linkedin'
     name = 'Linkedin'
