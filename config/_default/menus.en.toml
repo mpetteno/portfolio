@@ -89,26 +89,36 @@
     weight = 70
     [main.params]
 [[main]]
-    identifier = 'resume'
-    name = 'resume'
-    url = '/docs/mpetteno-resume.pdf'
-    parent = ''
-    post = ''
-    pre = ''
-    title = 'resume'
-    weight = 30
-    [main.params]
-        rel = 'external'
-        target = '_blank'
-[[main]]
     identifier = 'cv'
     name = 'cv'
-    url = '/docs/mpetteno-cv.pdf'
+    pageRef = '/cv'
     parent = ''
     post = ''
     pre = ''
     title = 'cv'
-    weight = 40
+    weight = 30
+    [main.params]
+[[main]]
+    identifier = 'resume'
+    name = 'resume'
+    url = '/docs/mpetteno-resume.pdf'
+    parent = 'cv'
+    post = ''
+    pre = ''
+    title = 'resume'
+    weight = 10
+    [main.params]
+        rel = 'external'
+        target = '_blank'
+[[main]]
+    identifier = 'academic'
+    name = 'academic'
+    url = '/docs/mpetteno-cv.pdf'
+    parent = 'cv'
+    post = ''
+    pre = ''
+    title = 'academic'
+    weight = 20
     [main.params]
         rel = 'external'
         target = '_blank'
