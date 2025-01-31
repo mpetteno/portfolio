@@ -91,7 +91,6 @@
 [[main]]
     identifier = 'cv'
     name = 'cv'
-    pageRef = '/cv'
     parent = ''
     post = ''
     pre = ''
