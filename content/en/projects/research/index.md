@@ -7,8 +7,29 @@ render = 'never'
 [cascade._build]
 render = 'never'
 +++
-{{< projectTitle id="master-thesis" title="Latent Space Regularization via Normalizing Attribute Transformations"
-title1="Code" link1="https://github.com/mpetteno-polimi/thesis?tab=readme-ov-file#latent-space-regularization-via-normalizing-attribute-transformations-for-symbolic-music-generation" icon1="fa-brands fa-square-github" 
+{{< projectTitle id="eusipco-2025-paper" title="Conditional Diffusion as Latent Constraints for Unconditional Symbolic Music Generation Models"
+title1="Code" link1="https://github.com/mpetteno/controllable-latent-diffusion" icon1="fa-brands fa-square-github"
+title2="Dataset" link2="https://zenodo.org/records/13369389" icon2="fa-solid fa-database" >}}
+
+We explore the application of denoising diffusion processes as plug-and-play latent constraints for unconditional 
+symbolic music generation models. Recent advances in latent diffusion models have demonstrated state-of-the-art 
+performance in high-dimensional time-series data synthesis while providing flexible control through conditioning and 
+guidance. However, existing methodologies primarily rely on musical context or natural language as the main modality of 
+interacting with the generative process, which may not be ideal for expert users seeking precise fader-like manipulation 
+of specific musical attributes. In this work, we focus on a framework leveraging a library of small conditional 
+diffusion models operating as implicit probabilistic priors on the latents of a frozen unconditional backbone. While
+previous studies have explored domain-specific use cases, this work, to the best of our knowledge, is the first to 
+demonstrate the versatility of such an approach across a diverse array of musical attributes, such as note density, 
+pitch range, contour, and rhythm complexity. Our experiments show that diffusion-driven constraints outperform 
+traditional attribute regularization and other latent constraints architectures, achieving significantly stronger 
+correlations between target and generated attributes while maintaining high perceptual quality and diversity.
+
+{{< projectKeywords "symbolic music, attribute-controlled generation, diffusion models, latent constraints" >}}
+
+<div class="m:mb-l clear-both"></div>
+
+{{< projectTitle id="eusipco-2025-paper" title="On the Joint Minimization of Regularization Loss Functions in Deep Variational Bayesian Methods for Attribute-Controlled Symbolic Music Generation"
+title1="Code" link1="https://github.com/mpetteno/box-cox-latent-reg" icon1="fa-brands fa-square-github" 
 title2="Dataset" link2="https://zenodo.org/records/13369389" icon2="fa-solid fa-database" >}}
 
 This research project in Deep Learning builds on top of the 
@@ -19,13 +40,12 @@ introducing a regularization term. This offer precise control over a specific at
 manipulating latent variables unlike prompt-based generative models that often lack this ability. The novel 
 contribution of this research consists in the introduction of an invertible transformation for the univariate 
 distribution of the attribute to encode: the goal of this proposal is to make this distribution as close as possible to
-the prior distribution used choose for the latent space, according to the idea that this will help the multi-objective 
-optimization process by making the new regularization synergic to the Kullback-Leibler divergence in the original VIB loss function; 
-moreover, being the transformation invertible, it allows to map the encoded property back to the original domain 
-improving the model interpretability. The method has been applied in the symbolic music domain, particularly in the task
-of generating 4 bars melodies and the dataset created to train the models is publicly available on Zenodo (link above).
+the prior distribution used choose for the latent space; moreover, being the transformation invertible, it allows to 
+map the encoded property back to the original domain improving the model interpretability. The method has been applied 
+in the symbolic music domain, particularly in the task of generating 4 bars melodies and the dataset created to train
+the models is publicly available on Zenodo (link above).
 
-{{< projectKeywords "symbolic music, attribute-controlled generation, data gaussianization" >}}
+{{< projectKeywords "symbolic music, attribute-controlled generation, latent space regularization, power transforms" >}}
 
 <div class="m:mb-l clear-both"></div>
 
