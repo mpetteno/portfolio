@@ -8,7 +8,7 @@ render = 'never'
 render = 'never'
 +++
 {{< projectTitle id="ismir-2025-paper" title="Conditional Diffusion as Latent Constraints for Unconditional Symbolic Music Generation Models"
-title1="Paper" link1="https://ismir2025program.ismir.net/poster_133.html" icon1="fa-brands fa-newspaper"
+title1="Paper" link1="https://ismir2025program.ismir.net/poster_133.html" icon1="fa-solid fa-newspaper"
 title2="Code" link2="https://github.com/mpetteno/controllable-latent-diffusion" icon2="fa-brands fa-square-github"
 title3="Dataset" link3="https://zenodo.org/records/13369389" icon3="fa-solid fa-database" >}}
 
@@ -30,7 +30,7 @@ correlations between target and generated attributes while maintaining high perc
 <div class="m:mb-l clear-both"></div>
 
 {{< projectTitle id="eusipco-2025-paper" title="On the Joint Minimization of Regularization Loss Functions in Deep Variational Bayesian Methods for Attribute-Controlled Symbolic Music Generation"
-title1="Paper" link1="https://eusipco2025.org/wp-content/uploads/pdfs/0000441.pdf" icon1="fa-brands fa-newspaper"
+title1="Paper" link1="https://eusipco2025.org/wp-content/uploads/pdfs/0000441.pdf" icon1="fa-solid fa-newspaper"
 title2="Code" link2="https://github.com/mpetteno/box-cox-latent-reg" icon2="fa-brands fa-square-github"
 title3="Dataset" link3="https://zenodo.org/records/13369389" icon3="fa-solid fa-database" >}}
 
