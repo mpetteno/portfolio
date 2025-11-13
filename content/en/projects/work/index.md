@@ -2,9 +2,9 @@
 title = 'Professional Experience'
 date = 2023-01-01T08:30:00-07:00
 draft = false
-[_build]
+[build]
 render = 'never'
-[cascade._build]
+[cascade.build]
 render = 'never'
 +++
 I bring years of experience in software development, architecture, and DevOps, primarily through consultancy roles 

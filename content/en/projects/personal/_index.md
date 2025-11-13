@@ -2,7 +2,7 @@
 title = 'Personal Projects'
 date = 2025-01-04T19:30:00
 draft = false
-[_build]
+[build]
 render = 'never'
 +++
 {{< projectTitle title="Advent of Code" id="aoc"
