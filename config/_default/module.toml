@@ -1,6 +1,8 @@
-[module.hugoVersion]
+[hugoVersion]
     extended = true
     min = ''
     max = ''
-[module.mounts]
-excludeFiles = [ "\\.qmd$", "\\.ipynb$", "\\.py$" ]
+[mounts]
+    source = 'content'
+    target = 'content'
+    files = [ '! **/*.qmd', '! **/*.ipynb', '! **/*.py', '! **/venv/**' ]

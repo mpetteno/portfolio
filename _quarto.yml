@@ -1,2 +1,6 @@
 project:
   type: hugo
+  render:
+    - "*.qmd"
+    - "**/*.qmd"
+    - "!**/test.qmd"

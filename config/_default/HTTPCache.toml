@@ -1,3 +1,5 @@
+respectCacheControlNoStoreInRequest = true
+respectCacheControlNoStoreInResponse = false
 [cache]
     [cache.for]
         excludes = ['**']

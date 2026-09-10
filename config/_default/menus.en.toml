@@ -1,7 +1,7 @@
 [[main]]
     identifier = 'about'
     name = 'about'
-    pageRef = '/about'
+    pageRef = 'about'
     parent = ''
     post = ''
     pre = ''
@@ -11,7 +11,7 @@
 [[main]]
     identifier = 'projects'
     name = 'projects'
-    pageRef = '/projects'
+    pageRef = 'projects'
     parent = ''
     post = ''
     pre = ''
@@ -21,7 +21,7 @@
 [[main]]
     identifier = 'research-activity'
     name = 'research'
-    pageRef = '/projects/research'
+    pageRef = 'projects/research'
     parent = 'projects'
     post = ''
     pre = ''
@@ -31,7 +31,7 @@
 [[main]]
     identifier = 'professional-exp'
     name = 'work'
-    pageRef = '/projects/work'
+    pageRef = 'projects/work'
     parent = 'projects'
     post = ''
     pre = ''
@@ -41,7 +41,7 @@
 [[main]]
     identifier = 'personal-projects'
     name = 'personal'
-    pageRef = '/projects/personal'
+    pageRef = 'projects/personal'
     parent = 'projects'
     post = ''
     pre = ''
@@ -51,7 +51,7 @@
 [[main]]
     identifier = 'creative-projects'
     name = 'creative'
-    pageRef = '/projects/creative'
+    pageRef = 'projects/creative'
     parent = 'projects'
     post = ''
     pre = ''
@@ -61,7 +61,7 @@
 [[main]]
     identifier = 'computer-music-projects'
     name = 'computer music'
-    pageRef = '/projects/computer-music'
+    pageRef = 'projects/computer-music'
     parent = 'projects'
     post = ''
     pre = ''
@@ -71,7 +71,7 @@
 [[main]]
     identifier = 'sasp-projects'
     name = 'sound synthesis & processing'
-    pageRef = '/projects/sasp'
+    pageRef = 'projects/sasp'
     parent = 'projects'
     post = ''
     pre = ''
@@ -81,7 +81,7 @@
 [[main]]
     identifier = 'musical-acoustics-projects'
     name = 'musical acoustics'
-    pageRef = '/projects/musical-acoustics'
+    pageRef = 'projects/musical-acoustics'
     parent = 'projects'
     post = ''
     pre = ''
@@ -124,7 +124,7 @@
 [[main]]
     identifier = 'contactme'
     name = 'contact'
-    pageRef = '/contactme'
+    pageRef = 'contactme'
     parent = ''
     post = ''
     pre = ''

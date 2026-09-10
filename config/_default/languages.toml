@@ -1,16 +1,16 @@
 [en]
-    contentDir = 'content/en'
+    contentDir = 'content'
     disabled = false
-    languageCode = 'en-US'
-    languageDirection = 'ltr'
-    languageName = 'English'
+    locale = 'en-US'
+    direction = 'ltr'
+    label = 'English'
     title = "Matteo Pettenò's Portfolio"
-    weight = 0
-[it]
-    contentDir = 'content/it'
-    disabled = true
-    languageCode = 'it-iT'
-    languageDirection = 'ltr'
-    languageName = 'Italian'
-    title = "Portfolio di Matteo Pettenò"
     weight = 1
+[it]
+    contentDir = 'content'
+    disabled = true
+    locale = 'it-IT'
+    direction = 'ltr'
+    label = 'Italian'
+    title = "Portfolio di Matteo Pettenò"
+    weight = 2
