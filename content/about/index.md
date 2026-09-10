@@ -7,7 +7,7 @@ render = 'never'
 [cascade.build]
 render = 'never'
 +++
-{{< figure src="/profile-picture1.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}
+<!--{{< figure src="/profile-picture1.webp" alt="Profile image" class="extra-small-img ml-xs rounded-img float-right">}}-->
 
 AI Researcher and Software Engineer specializing in deep learning, audio processing and controllable generative models.
 Formerly a Marie Skłodowska-Curie Doctoral Fellow within the {{< link href="https://psst-doctoralnetwork.eu/" title="Privacy for Smart Speech Technology" target="_blank" >}} network (jointly 
