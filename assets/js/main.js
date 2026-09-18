@@ -17,7 +17,7 @@ async function solveAoC(event, year, day) {
         input_file: inputFile
     };
 
-    const apiUrl = "https://aoc-webserver.onrender.com/solve";
+    const apiUrl = "https://aoc-84y4.onrender.com/solve";
     try {
         responseOutput.classList.remove('!text-positive-light', 'dark:!text-positive-dark');
         responseOutput.classList.remove('!text-negative-light', 'dark:!text-negative-dark');
