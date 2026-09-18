@@ -1,6 +1,6 @@
 +++
 title = 'Advent of Code 2025'
-date = 2025-10-01T08:00:00
+date = 2026-09-18T19:30:00
 draft = false
 type = 'aoc'
 layout = 'edition'
