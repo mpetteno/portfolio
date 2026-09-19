@@ -30,10 +30,10 @@ defaultMarkdownHandler = 'goldmark'
         enable = true
         enableAutoIDPrefix = false
     [goldmark.extensions.passthrough]
-        enable = false
-    [goldmark.extensions.passthrough.delimiters]
-        block = []
-        inline = []
+        enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+        block = [['\[', '\]'], ['$$', '$$']]
+        inline = [['\(', '\)']]
     [goldmark.extensions.typographer]
         apostrophe = '&rsquo;'
         disable = false
