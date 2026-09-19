@@ -9,6 +9,7 @@ layout = 'edition'
     languageURL = 'https://kotlinlang.org/'
     year = '2025'
 +++
+<small><sup>*</sup>Descriptions of the solutions for this edition are mostly AI generated due to lack of time.</small>
 
 {{< projectTitle title="Solver implementation" title1="Source"
 link1="https://github.com/mpetteno/aoc/blob/main/solvers/kt_solver.kt" icon1="fa-solid fa-code" target1="_blank" >}}
