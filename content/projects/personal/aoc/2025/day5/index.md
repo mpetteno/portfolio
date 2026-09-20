@@ -1,6 +1,6 @@
 +++
 title = 'Day 5'
-date = 2026-09-20T11:00:00
+date = 2026-09-20T12:00:00
 draft = false
 type = 'aoc'
 layout = 'day'
