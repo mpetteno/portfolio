@@ -12,7 +12,6 @@ solutionFileName = "Solution.kt"
 +++
 
 ### Part 1
-
 The problem asks us to find the maximum possible number that can be formed by choosing exactly **2 digits** from each 
 given string (battery bank) without changing their relative order, and then sum these maximum numbers across all banks.
 To form the largest 2-digit number from a sequence of digits:

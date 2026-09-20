@@ -12,7 +12,6 @@ solutionFileName = "Solution.kt"
 +++
 
 ### Part 1
-
 To identify the invalid product IDs, we need to find all numbers within the given ranges that consist of a sequence of
 digits repeated **exactly twice** (e.g., \\(11 = 1 \times 2\\), \\(1010 = 10 \times 2\\), \\(123123 = 123 \times 2\\)).
 A naive approach would iterate through every single number in each range, convert it to a string, and check for a 
@@ -39,7 +38,6 @@ We iterate \\(X\\) only from \\(\text{startX}\\) to \\(\text{endX}\\), adding \\
 unique set (to avoid duplicate additions across overlapping definitions).
 
 ### Part 2
-
 In Part 2, an ID is invalid if it consists of a sequence of digits repeated **at least twice** (\\(R \ge 2\\)). 
 For instance, \\(123123123\\) (\\(R = 3\\)) and \\(1111111\\) (\\(R = 7\\)) are now considered invalid.
 A sequence \\(X\\) of length \\(k\\) repeated \\(R\\) times can be represented mathematically using a geometric series 
