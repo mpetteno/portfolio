@@ -25,7 +25,6 @@ To solve Part 1:
 In Part 2, the process becomes iterative. Once accessible paper rolls are identified, the forklifts can remove them 
 (replacing them with empty space `.`). Removing paper rolls changes the surrounding neighborhood counts, potentially
 making previously inaccessible rolls accessible in subsequent steps.
-
 We simulate this removal process in a loop:
 * In each iteration, we locate all currently accessible paper rolls (`@` cells with fewer than 4 `@` neighbors).
 * If no accessible rolls are found, the process terminates.

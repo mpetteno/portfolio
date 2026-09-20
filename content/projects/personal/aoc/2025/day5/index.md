@@ -14,7 +14,6 @@ solutionFileName = "Solution.kt"
 ### Part 1
 The problem asks us to determine how many available ingredient IDs are fresh based on a given set of inclusive fresh ID ranges.
 An ingredient ID is considered fresh if it falls within at least one of the provided ranges.
-
 To solve Part 1:
 1. We parse the input into two groups: a list of inclusive ID ranges (`start-end`) and a list of target ingredient IDs.
 2. For each ingredient ID in the available list, we iterate through the fresh ID ranges.
@@ -24,7 +23,6 @@ To solve Part 1:
 ### Part 2
 In Part 2, the second section of the database (available ingredient IDs) is ignored. Instead, we must count the total
 number of unique ingredient IDs that are covered across all fresh ID ranges combined.
-
 Because the ranges can overlap or sit adjacent to each other, simply summing their individual lengths would overcount shared IDs:
 1. We sort all fresh ID ranges primarily by their `start` bounds in ascending order.
 2. We iterate through the sorted ranges and merge overlapping or contiguous ranges (where a range begins on or before `current.end + 1`).

@@ -23,7 +23,6 @@ a monotonic stack approach to build the largest sequence.
 ### Part 2
 In Part 2, the requirement increases from picking 2 digits to picking **12 digits** from each bank string to form the 
 largest possible 12-digit number.
-
 This is a classic **"Create Largest Number"** problem, which can be solved greedily using a **monotonic stack**:
 * We iterate through the digits of each bank from left to right.
 * We maintain a stack (or `StringBuilder`) of selected digits.
