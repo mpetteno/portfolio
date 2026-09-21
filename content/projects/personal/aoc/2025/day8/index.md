@@ -29,6 +29,6 @@ of the final pair of junction boxes that connects the entire network. To solve P
 2. Iterate through the sorted pairs sequentially, applying union operations for each edge.
 3. After each union operation, check if the total number of connected components has reduced to 1 (or if the set containing the current box matches the total count of input boxes).
 4. Identify the last pair \\((A, B)\\) that triggers this full connectivity condition.
-5. Multiply \\(A.x \times B.x$ (using `Long` arithmetic to avoid 32-bit integer overflow) and return the product.
+5. Multiply \\(A.x \times B.x$\\) (using `Long` arithmetic to avoid 32-bit integer overflow) and return the product.
 
 {{< aocSolver year="2025" day="8" >}}
