@@ -129,13 +129,3 @@ math = true
     rel = 'external'
     target = '_blank'
     hide = false
-[[social]]
-    identifier = 'instagram'
-    name = 'Instagram'
-    url = 'https://www.instagram.com/venus_in.cancer/'
-    icon = 'fa-brands fa-instagram'
-    title = 'instagram'
-    weight = 120
-    rel = 'external'
-    target = '_blank'
-    hide = false
